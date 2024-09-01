@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+
+# Prueba React
+
+La prueba consiste en usar los componentes alojados en la carpeta resources, y lograr un app que agregue usuarios con su contraseña, validando que la contraseña coincida además deben ser listados en la parte inferior.
+
+Se debe validar
+* Usar los componentes de la carpeta resources
+* que los campos nombre y password sean requeridos
+* que la contraseña coincida con repetir contraseña
+   
+! El tiempo de la prueba es de máximo media hora
+
+## la interfaz resultante debe ser similar a la siguiente
+#### listado
+![listado](images/1.png)
+
+#### error
+![error](images/2.png)
+
+
+
+Mucha suerte !!
+# prueba realizada en base a create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
