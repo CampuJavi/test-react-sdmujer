@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .welcome-container {
+    background-color: #f0eee9; /* Nuevo color de fondo */
+    text-align: center;
+    padding: 20px;
+    color: rgb(53, 53, 53); /* Color del texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+    width: 100vw;  /* Ocupa el 100% del ancho de la ventana */
+  }
+  
+  .welcome-image {
+    width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .welcome-text {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .view-test-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f0eee9; /* Color del texto en el botón */
+    background-color: #6f42c1; /* Nuevo color de fondo del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-test-button:hover {
+    background-color: #5a2a9b; /* Color de fondo al pasar el ratón sobre el botón */
+  }
